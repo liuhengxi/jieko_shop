@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "JOJO-OOOZeroOne",
+    "children" : [ {
+      "name" : "35752-MainThread",
+      "children" : [ {
+        "name" : "testShoping",
+        "uid" : "a43ccb8d738471b2",
+        "parentUid" : "819a26f38f158101ba42030bef068f11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574479956044,
+          "stop" : 1574480020957,
+          "duration" : 64913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "819a26f38f158101ba42030bef068f11"
+    } ],
+    "uid" : "6414bdaa2f725e324c90b790ad78e842"
+  } ]
+}

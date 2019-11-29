@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_shopping",
+      "children" : [ {
+        "name" : "Test_shopping01",
+        "children" : [ {
+          "name" : "testShoping",
+          "uid" : "a43ccb8d738471b2",
+          "parentUid" : "4683234f62dd7f79d71e6e4ab328fea3",
+          "status" : "failed",
+          "time" : {
+            "start" : 1574479956044,
+            "stop" : 1574480020957,
+            "duration" : 64913
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4683234f62dd7f79d71e6e4ab328fea3"
+      } ],
+      "uid" : "f1a93048af99fd04f5c0b4490768e48a"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

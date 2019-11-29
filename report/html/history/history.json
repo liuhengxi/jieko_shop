@@ -1,0 +1,22 @@
+{
+  "dd8723f8eb9a98a6f62d55343e162e33" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a43ccb8d738471b2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert None == '很抱歉，\"ECMobile\"已停止运行。'",
+      "time" : {
+        "start" : 1574479956044,
+        "stop" : 1574480020957,
+        "duration" : 64913
+      }
+    } ]
+  }
+}

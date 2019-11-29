@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Nov 23 11:32:36 CST 2019","Sat Nov 23 11:33:40 CST 2019","64913","scripts","test_shopping","Test_shopping01","","","testShoping",""

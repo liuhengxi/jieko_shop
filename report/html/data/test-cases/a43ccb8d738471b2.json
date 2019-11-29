@@ -1,0 +1,77 @@
+{
+  "uid" : "a43ccb8d738471b2",
+  "name" : "testShoping",
+  "fullName" : "scripts.test_shopping.Test_shopping01#testShoping",
+  "historyId" : "dd8723f8eb9a98a6f62d55343e162e33",
+  "time" : {
+    "start" : 1574479956044,
+    "stop" : 1574480020957,
+    "duration" : 64913
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None == '很抱歉，\"ECMobile\"已停止运行。'",
+  "statusTrace" : "self = <scripts.test_shopping.Test_shopping01 object at 0x03B89210>\nopen_driver01 = (<page.goodsDescription_page.ShoppingPage object at 0x03B66ED0>, <page.shopoingCar_page.ShoppingCarPage object at 0x03B79690>, <page.login_page.LoginPage object at 0x03B89150>, <page.payment_page.PayMentPage object at 0x03B89230>)\n\n    def testShoping(self,open_driver01):\n        open_driver01[0].click_goods()# 选择商品类\n        open_driver01[0].click_mouse()# 选择鼠标\n        open_driver01[0].click_amount()# 选择数量\n        open_driver01[0].click_add()# 点击+号\n        open_driver01[0].click_ok()# 点击确认\n        open_driver01[0].click_basic()# 点击参数\n        open_driver01[0].click_back()# 点击返回\n        open_driver01[0].click_description()# 点击商品详情\n        open_driver01[0].click_back()# 点击返回\n        open_driver01[0].click_comment()# 点击商品评论\n        open_driver01[0].click_back()# 点击返回\n        open_driver01[0].click_addCar()# 点击加入购物车\n        open_driver01[2].clear_username()# 情况点击栏\n        open_driver01[2].send_username()# 输入账户名\n        open_driver01[2].clear_password()# 情空输入栏\n        open_driver01[2].send_password()# 输入密码\n        open_driver01[2].click_index()# 点击登录\n        open_driver01[0].click_addCar()  # 点击加入购物车\n        open_driver01[0].click_car()  # 点击车子\n        open_driver01[1].click_modifier()# 点击修改\n        open_driver01[1].click_addc()# 点击增加\n        open_driver01[1].click_okc()# 点击完成\n        open_driver01[1].click_payment()# 点击结算\n        open_driver01[3].click_payMethod()# 点击支付方式\n        open_driver01[3].click_money()# 点击支付宝\n        open_driver01[3].click_deliveryMethod()# 点击配送方式\n        open_driver01[3].click_express()# 点击申通\n        open_driver01[3].click_invoice()# 点击发票信息\n        open_driver01[3].click_demo()# 点击demo\n        open_driver01[3].click_pid()# 点击比列\n        open_driver01[3].click_rise()# 点击发票抬头\n        open_driver01[3].send_rise()# 输入发票\n        open_driver01[3].click_save()  # 点击保存\n        open_driver01[3].click_redBag()# 点击红吧\n        open_driver01[3].click_bac()# 点击返回\n        open_driver01[3].click_refer()# 点击提交订单\n        open_driver01[3].click_confirm()# 点击确定\n        open_driver01[3].click_alipay()# 点击支付宝\n        end_text=open_driver01[3].text_end()# 获取最后信息\n>       assert end_text=='很抱歉，\"ECMobile\"已停止运行。'\nE       assert None == '很抱歉，\"ECMobile\"已停止运行。'\n\nscripts\\test_shopping.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_driver01",
+    "time" : {
+      "start" : 1574479947976,
+      "stop" : 1574479955919,
+      "duration" : 7943
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_shopping"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_shopping01"
+  }, {
+    "name" : "host",
+    "value" : "JOJO-OOOZeroOne"
+  }, {
+    "name" : "thread",
+    "value" : "35752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_shopping"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a43ccb8d738471b2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts.test_shopping",
+    "children" : [ {
+      "name" : "testShoping",
+      "uid" : "a43ccb8d738471b2",
+      "parentUid" : "f0fb7584bbbda54fafdf7b28fec3fb2e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1574479956044,
+        "stop" : 1574480020957,
+        "duration" : 64913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "scripts.test_shopping"
+  } ]
+}

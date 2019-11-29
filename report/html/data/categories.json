@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert None == '很抱歉，\"ECMobile\"已停止运行。'",
+      "children" : [ {
+        "name" : "testShoping",
+        "uid" : "a43ccb8d738471b2",
+        "parentUid" : "40b0a344bad91129bda1c807655e023e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574479956044,
+          "stop" : 1574480020957,
+          "duration" : 64913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40b0a344bad91129bda1c807655e023e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

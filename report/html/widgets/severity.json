@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a43ccb8d738471b2",
+  "name" : "testShoping",
+  "time" : {
+    "start" : 1574479956044,
+    "stop" : 1574480020957,
+    "duration" : 64913
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
